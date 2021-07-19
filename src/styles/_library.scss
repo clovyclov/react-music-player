@@ -6,7 +6,7 @@
 	height: 100%;
 	background-color: white;
 	box-shadow: none;
-	overflow: scroll;
+	overflow: visible;
 	transform: translateX(-100%);
 	transition: all 0.5s ease;
 	opacity: 0;
@@ -58,6 +58,10 @@
 }
 .selected {
 	background-color: violet;
+	border-top-right-radius: 12px;
+	border-bottom-right-radius: 12px;
+	left: 10px;
+	width: 105%;
 }
 
 @media screen and (max-width: 767px) {
